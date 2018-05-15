@@ -1,3 +1,4 @@
+// Recursive Solution
 function anagrams(prefix, str) {
   if(str.length <= 1) {
     console.log(`The anagram is ${prefix}${str}`);
@@ -12,3 +13,6 @@ function anagrams(prefix, str) {
 };
 
 console.log(anagrams('', 'east'));
+
+
+// Iterative Solution

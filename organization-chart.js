@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Zuckerberg
 //     Schroepfer
 //         Bosworth
@@ -36,6 +37,9 @@
 //             Eric
 //             Ana
 //             Wes
+
+
+// Recursive Solution
 
 const orgChart = [
   {id: 'Zuckerberg', boss: null},
@@ -85,3 +89,7 @@ function organization(chart, boss) {
 };
 
 console.log(organization(orgChart, 0));
+
+
+
+// Iterative Solution

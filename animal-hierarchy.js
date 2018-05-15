@@ -1,3 +1,4 @@
+// Recursive Solution
 const animalHierarchy = [
     {id: 'Animals', parent: null},
     {id: 'Mammals', parent: 'Animals'},
@@ -16,3 +17,6 @@ function traverse(animalHierarchy, parent) {
     return node;  
 }
 console.log(traverse(animalHierarchy, null));
+
+
+// Iterative Solution

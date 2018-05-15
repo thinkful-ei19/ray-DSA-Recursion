@@ -1,3 +1,4 @@
+// Recursive Solution
 function triangleNum(num) {
   if(num === 0) {
     return 0;
@@ -6,3 +7,13 @@ function triangleNum(num) {
 };
 
 console.log(triangleNum(5));
+
+
+// Iterative Solution
+function triangle(n) {
+  var tot = 0;
+  for (var i = 1; i <= n; ++i) {
+    tot += n;
+  }
+  return tot;
+}

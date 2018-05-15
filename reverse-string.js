@@ -1,4 +1,4 @@
-// Reverse String
+// Recursive Solution
 function reverseString(str) {
   if(str.length === 0) {
       return '';
@@ -7,3 +7,14 @@ function reverseString(str) {
 };
 
 console.log(reverseString('Hello'));
+
+
+// Iterative Solution
+function reverse_tail(str) {
+  var accumulator = "";
+  while (str !== "") {
+    accumulator = str[0] + accumulator;
+    str = str.slice(1);
+  }
+  return accumulator;
+}
